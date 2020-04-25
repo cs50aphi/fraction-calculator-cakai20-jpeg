@@ -4,9 +4,9 @@ public class Fraction
     
     private int neumerator;
     
-   public void fraction(int, int)
+   public int fraction(int x, int y)
    {
-       
+      
    }
    
    public int add()
@@ -19,13 +19,14 @@ public class Fraction
        
    }
    
-   public int multiply()
+   public String multiply()
    {
        
    }
    
-   public int divide()
+   public String divide( )
    {
-       
+      
+      
    }
 }
