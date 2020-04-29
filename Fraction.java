@@ -21,34 +21,34 @@ public class Fraction
        return denominator;
    }
    
-   public String add()
+   public String add(int n, int d)
    {
-       newNum  = f1.getNum() * getDen() + getNum() + f1.getDen;
-       newDen = f1.getDen() * getDen();
+       newNum  = f1.getNum() * d + n + f1.getDen;
+       newDen = f1.getDen() * d;
        return newNum + "/" + newDen;
    }
      
        
    
-   public int subtract()
+   public int subtract(int n, int d)
    {
-      newNum  = f1.getNum() * getDen() - getNum() + f1.getDen;
-      newDen = f1.getDen() * getDen();
+      newNum  = f1.getNum() * d - n + f1.getDen;
+      newDen = f1.getDen() * d;
       return newNum + "/" + newDen;
       
    }
    
-   public String multiply()
+   public String multiply(int n, int d)
    {
-       newNum  = f1.getNum() * getNum();
-       newDen = f1.getDen() * getDen();
+       newNum  = f1.getNum() * n;
+       newDen = f1.getDen() * d;
        return newNum + "/" + newDen;
    }
    
-    public String divide( )
+    public String divide(int n, int d)
     {
-       newNum  = f1.getNum() * getDen();
-       newDen = f1.getDen() * getNum();
+       newNum  = f1.getNum() * d;
+       newDen = f1.getDen() * n();
        return newNum + "/" + newDen; 
     }
 }
